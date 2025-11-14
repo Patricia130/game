@@ -62,7 +62,7 @@ class _SplashScreenState extends State<SplashScreen>
             ],
           ),
         ),
-        Positioned(R
+        Positioned(
           bottom: 0,
           left: 0,
           child: SvgPicture.asset("assets/images/vector_bottom.svg",colorFilter: ColorFilter.mode(themeColor, BlendMode.srcIn),),
